@@ -217,7 +217,7 @@ BEGIN:
 	}
 
 	// if got here there was more namespace, cannot go any deeper
-	panic("Invalid field namespace")
+	// panic("Invalid field namespace")
 }
 
 // asInt returns the parameter as a int64
